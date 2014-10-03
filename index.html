@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BandsInTownConvertToCSV</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="conversion.js"></script>
+</head>
+<body>
+
+<div id="bitCSVForm">
+<form>
+  <textarea id="bitJson" style="width:100%;height:200px;">
+  </textarea>
+  <button id="getJsonButton" type="button">Generate CSV</button>
+  <a href="" id="dataLink" download="events.csv"></a>
+</form>
+</div>
+
+<div id="bitCSVInstructions">
+<p>1. Head to the according URL for your group:</p>
+
+<p>ie. http://api.bandsintown.com/artists/*YOURARTISTNAME*/events.json</p>
+
+<p>2. Copy all of the data there and then paste it in the field above.</p>
+
+<p>3. Press the generate csv button.</p>
+</div>
+
+</body>
+</html>
